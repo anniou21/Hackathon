@@ -1,0 +1,53 @@
+#mainNav {
+
+        background-color: #76e8cf !important;
+}
+
+
+.btn-co {
+      background: #3aaa8f !important;
+      color: white;
+}
+
+
+.navbar-brand {
+    width: 130px !important;
+    height: 120px !important;
+}
+
+.handicrush {
+    height: 122px;
+    position: relative;
+    top:-10px;
+    left: 0px;
+}
+
+
+.navbar {
+
+height: 130px !important;
+}
+
+
+.bg-primary {
+  height: 400px;
+  background-color: #76e8cf;
+}
+
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #76e8cf;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+
