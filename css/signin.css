@@ -55,3 +55,8 @@ body {
     background-color:#76e8cf;
 }
 
+.btn-lg a{
+      color: white;
+      text-decoration: none;
+}
+
