@@ -71,7 +71,7 @@
                     <h3>Quelle tranche de la population est la plus touchée par le handicap?</h3>
                     <div class="answerA"><img src="./img/tick.png" alt="icons"><h4>Les 12-25 ans</h4></div>
                     <div class="answerB"><img src="./img/tick.png" alt="icons"><h4>Les 25-55 ans</h4></div>
-                    <div class="answerC"><img src="./img/tick.png" alt="icons"><h4><?php header("Location: http://127.0.0.1/Hackathon/level3.php"); ?>Les 55-65 ans</h4></div>
+                    <div class="answerC"><img src="./img/tick.png" alt="icons"><h4><?php window.location.href = "level4.php"; ?>Les 55-65 ans</h4></div>
                 </div>
                 <form class="submit" method="POST">
                     <input type="image" id="jouer" src="./img/button_jouer.png">

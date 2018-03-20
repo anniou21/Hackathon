@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    background-color: #F0EBE6;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.ticks {
+    width: 150px;
+    height: 150px;
+}
+
+.question_area {
+    border: 3px #82D0DD solid;
+    border-radius: 6px;
+    width: 90%;
+    box-shadow: 3px 5px 9px #34343490;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.question_area>h3 {
+    margin-left: 20px;
+}
+
+.question_area>h4 {
+    margin-left: 55px;
+}
+
+.question_area>.answerA>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+.question_area>.answerB>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+.question_area>.answerC>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+
+.question_area>.answerA>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+.question_area>.answerB>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+.question_area>.answerC>img {
+    width: 30px;
+    float: left;
+    margin-left: 15px;
+}
+
+.submit {
+    margin-top: 50px;
+}
+#jouer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#rejouer {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#jouer:focus {
+    outline: none;
+}
+#rejouer:focus {
+    outline: none;
+}
+
+#jouer {
+    /* Valeurs spécifiques à WebKit */
+    -webkit-user-select: none;
+    cursor: pointer;
+    /* Smoothing out hover using css3 transitions, if not, the pressed button effect looks a bit hard */
+    transition: all 0.2s ease;
+}
+
+#rejouer {
+    /* Valeurs spécifiques à WebKit */
+    -webkit-user-select: none;
+    cursor: pointer;
+    /* Smoothing out hover using css3 transitions, if not, the pressed button effect looks a bit hard */
+    transition: all 0.2s ease;
+}
+
+/* Imitate a pressed effect for buttons */
+#jouer:active {
+    box-shadow: 0px 0px #282A35;;
+    top: 7px;
+    transform: translateY(4px);
+}
+
+/* Imitate a pressed effect for buttons */
+#rejouer:active {
+    box-shadow: 0px 0px #282A35;;
+    top: 7px;
+    transform: translateY(4px);
+}

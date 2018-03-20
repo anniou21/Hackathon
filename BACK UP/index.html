@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>HandiCrush</title>
+    </head>
+    <body>
+        <div class="game_area">
+            <div class="hidden_image"></div>
+            <table class="cubes">
+                <tr>
+                    <td><button id="1">1</button></td>
+                    <td><button id="2">2</button></td>
+                    <td><button id="3">3</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4">4</button></td>
+                    <td><button id="5">5</button></td>
+                    <td><button id="6">6</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7">7</button></td>
+                    <td><button id="8">8</button></td>
+                    <td><button id="9">9</button></td>
+                </tr>
+            </table>
+        </div>
+
+        
+        <div class="question_area">
+            <h3>Quelle tranche de la population est la plus touché par le handicap?</h3>
+            <div class="answerA"><img src="./img/tick.png" alt=""><h4>Les 12-25 ans</h4></div>
+            <div class="answerB"><img src="./img/tick.png" alt=""><h4>Les 25-55 ans</h4></div>
+            <div class="answerC"><img src="./img/tick.png" alt=""><h4>Les 55-65 ans</h4></div>
+        </div>
+        <form class="submit" method="POST">
+            <input type="image" id="jouer" src="./img/button_jouer.png">
+            <input type="image" id="rejouer" src="./img/button_rejouer.png">
+        </form>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="./game/levels.js"></script>
+    </body>
+</html>
